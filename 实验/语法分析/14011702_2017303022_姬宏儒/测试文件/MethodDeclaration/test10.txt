@@ -1,0 +1,21 @@
+class WhatHappen {
+    public static void main(String[] args) {
+        while(!false){
+            handle = mc.start(10, 10);
+        }
+    }
+}
+
+class Client {
+    int in;
+    int out;
+    int[] messagelist;
+    int index;
+    public boolean init(int a, boolean b){
+        index = 0;
+        messagelist = new int[10];
+        in = 0;
+        out = 0;
+        return true;
+    }
+}

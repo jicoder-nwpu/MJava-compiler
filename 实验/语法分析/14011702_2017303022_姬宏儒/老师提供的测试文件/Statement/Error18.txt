@@ -1,0 +1,6 @@
+ERROR: expect: LBRACKET but it is: IDENTIFIER at line: 3 near: mc
+ERROR: expect: RETURN but it is: RBRACE at line: 29 near: }
+ERROR: expect: ELSE but it is: RETURN at line: 55 near: return
+ERROR: expect: RETURN but it is: RBRACE at line: 80 near: }
+ERROR: expect: LBRACE but it is: IDENTIFIER at line: 83 near: extend
+ERROR: expect: SEMI but it is: RETURN at line: 88 near: return

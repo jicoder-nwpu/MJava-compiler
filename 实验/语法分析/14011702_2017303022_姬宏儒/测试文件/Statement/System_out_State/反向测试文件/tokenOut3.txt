@@ -1,0 +1,48 @@
+EOF
+
+1		class	CLASS
+
+1		WhatHappen	IDENTIFIER
+
+1		{	LBRACE
+
+2		public	PUBLIC
+
+2		static	STATIC
+
+2		void	VOID
+
+2		main	MAIN
+
+2		(	LPAREN
+
+2		String	STRING
+
+2		[	LBRACKET
+
+2		]	RBRACKET
+
+2		args	IDENTIFIER
+
+2		)	RPAREN
+
+2		{	LBRACE
+
+3		System.out.println	SYSTEM_OUT_PRINTLN
+
+3		(	LPAREN
+
+3		1	INTEGERLITERAL
+
+3		+	PLUS
+
+3		2	INTEGERLITERAL
+
+3		)	RPAREN
+
+4		}	RBRACE
+
+5		}	RBRACE
+
+EOF
+

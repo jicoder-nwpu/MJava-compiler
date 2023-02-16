@@ -1,0 +1,13 @@
+Goal:
+  MainClass: WhatHappen, args
+    IfState:
+      TRUE: true
+      AssignState: messagelist
+        IDENTIFIER: index
+        IDENTIFIER: tmp
+      AssignState: index
+        OperaExpre: PLUS
+          IDENTIFIER: index
+          INTEGERLITERAL: 1
+      AssignState: index
+        INTEGERLITERAL: 0

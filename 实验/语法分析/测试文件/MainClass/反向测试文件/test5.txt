@@ -1,0 +1,11 @@
+class WhatHappen {
+    public static void main(String[] argc) {
+        MyClient mc;
+        int handle;
+
+        mc = new MyClient();
+        while(!false){
+            handle = mc.start(10, 10);
+        }
+    }
+}

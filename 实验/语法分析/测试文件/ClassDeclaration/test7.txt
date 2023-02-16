@@ -1,0 +1,20 @@
+class WhatHappen {
+    public static void main(String[] args) {
+        while(!false){
+            handle = mc.start(10, 10);
+        }
+    }
+}
+
+class Client {
+    int in;
+}
+
+class MyClient extends Client{
+
+    public int start(int host, int port){
+        int handle;
+        handle = this.run();
+        return handle;
+    }
+}

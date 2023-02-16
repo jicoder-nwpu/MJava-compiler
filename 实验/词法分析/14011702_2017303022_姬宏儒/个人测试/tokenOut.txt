@@ -1,0 +1,866 @@
+EOF
+
+class	KEYWORD
+
+WhatHappen	IDENTIFIER
+
+{	LBRACE
+
+public	KEYWORD
+
+static	KEYWORD
+
+void	KEYWORD
+
+main	KEYWORD
+
+(	LPAREN
+
+String	KEYWORD
+
+[	LBRACKET
+
+]	RBRACKET
+
+args	IDENTIFIER
+
+)	RPAREN
+
+{	LBRACE
+
+MyClient	IDENTIFIER
+
+mc	IDENTIFIER
+
+;	SEMI
+
+int	KEYWORD
+
+handle	IDENTIFIER
+
+;	SEMI
+
+int	KEYWORD
+
+voit	IDENTIFIER
+
+;	SEMI
+
+boolean	KEYWORD
+
+maint	IDENTIFIER
+
+;	SEMI
+
+String	KEYWORD
+
+string	IDENTIFIER
+
+;	SEMI
+
+mc	IDENTIFIER
+
+=	EQ
+
+new	KEYWORD
+
+MyClient	IDENTIFIER
+
+(	LPAREN
+
+)	RPAREN
+
+;	SEMI
+
+while	KEYWORD
+
+(	LPAREN
+
+!	BANG
+
+false	KEYWORD
+
+)	RPAREN
+
+{	LBRACE
+
+handle	IDENTIFIER
+
+=	EQ
+
+mc	IDENTIFIER
+
+.	DOT
+
+start	IDENTIFIER
+
+(	LPAREN
+
+10	INTEGERLITERAL
+
+,	COMMA
+
+10	INTEGERLITERAL
+
+)	RPAREN
+
+;	SEMI
+
+}	RBRACE
+
+}	RBRACE
+
+}	RBRACE
+
+Class	IDENTIFIER
+
+Client	IDENTIFIER
+
+{	LBRACE
+
+int	KEYWORD
+
+book1	IDENTIFIER
+
+;	SEMI
+
+int	KEYWORD
+
+book1_5	IDENTIFIER
+
+;	SEMI
+
+int	KEYWORD
+
+[	LBRACKET
+
+]	RBRACKET
+
+book1_k	IDENTIFIER
+
+;	SEMI
+
+int	KEYWORD
+
+book1_k_p	IDENTIFIER
+
+;	SEMI
+
+pUblic	IDENTIFIER
+
+boolean	KEYWORD
+
+init	IDENTIFIER
+
+(	LPAREN
+
+)	RPAREN
+
+{	LBRACE
+
+ERROR: ILLEGAL IDENTIFIER	line: 21	: book1_
+
+ERROR: ILLEGAL CHARACTER	line: 21	: $
+
+0	INTEGERLITERAL
+
+;	SEMI
+
+messagelist	IDENTIFIER
+
+ERROR: ILLEGAL CHARACTER	line: 22	: #
+
+new	KEYWORD
+
+int	KEYWORD
+
+[	LBRACKET
+
+10	INTEGERLITERAL
+
+]	RBRACKET
+
+;	SEMI
+
+ERROR: ILLEGAL IDENTIFIER	line: 23	: _book1
+
+ERROR: ILLEGAL CHARACTER	line: 23	: @
+
+0	INTEGERLITERAL
+
+;	SEMI
+
+ERROR: ILLEGAL IDENTIFIER	line: 24	: _book1_
+
+ERROR: ILLEGAL CHARACTER	line: 24	: %
+
+0	INTEGERLITERAL
+
+;	SEMI
+
+return	KEYWORD
+
+true	KEYWORD
+
+;	SEMI
+
+}	RBRACE
+
+public	KEYWORD
+
+int	KEYWORD
+
+run	IDENTIFIER
+
+(	LPAREN
+
+int	KEYWORD
+
+ERROR: ILLEGAL IDENTIFIER	line: 27	: _book1_5
+
+int	KEYWORD
+
+ERROR: ILLEGAL IDENTIFIER	line: 27	: book$ssd
+
+)	RPAREN
+
+{	LBRACE
+
+int	KEYWORD
+
+ERROR: ILLEGAL IDENTIFIER	line: 28	: book#
+
+;	SEMI
+
+handle	IDENTIFIER
+
+=	EQ
+
+this	KEYWORD
+
+.	DOT
+
+Juggling	IDENTIFIER
+
+(	LPAREN
+
+)	RPAREN
+
+;	SEMI
+
+}	RBRACE
+
+public	KEYWORD
+
+int	KEYWORD
+
+getMsg	IDENTIFIER
+
+(	LPAREN
+
+)	RPAREN
+
+{	LBRACE
+
+int	KEYWORD
+
+ERROR: ILLEGAL IDENTIFIER	line: 33	: ###
+
+tmp	IDENTIFIER
+
+=	EQ
+
+messagelist	IDENTIFIER
+
+.	DOT
+
+length	KEYWORD
+
+;	SEMI
+
+if	KEYWORD
+
+(	LPAREN
+
+this	KEYWORD
+
+.	DOT
+
+isVoid	IDENTIFIER
+
+(	LPAREN
+
+)	RPAREN
+
+)	RPAREN
+
+{	LBRACE
+
+tmp	IDENTIFIER
+
+=	EQ
+
+tmp	IDENTIFIER
+
+-	SUB
+
+ERROR: ILLEGAL INTEGERLITERAL	line: 36	: 5.845
+
+;	SEMI
+
+}	RBRACE
+
+else	KEYWORD
+
+{	LBRACE
+
+tmp	IDENTIFIER
+
+=	EQ
+
+tmp	IDENTIFIER
+
+*	STAR
+
+ERROR: ILLEGAL INTEGERLITERAL	line: 39	: 5fast7s
+
+;	SEMI
+
+}	RBRACE
+
+if	KEYWORD
+
+(	LPAREN
+
+index	IDENTIFIER
+
+<	LT
+
+10	INTEGERLITERAL
+
+)	RPAREN
+
+{	LBRACE
+
+messagelist	IDENTIFIER
+
+[	LBRACKET
+
+index	IDENTIFIER
+
+]	RBRACKET
+
+=	EQ
+
+tmp	IDENTIFIER
+
+;	SEMI
+
+index	IDENTIFIER
+
+=	EQ
+
+index	IDENTIFIER
+
++	PLUS
+
+1	INTEGERLITERAL
+
+;	SEMI
+
+}	RBRACE
+
+else	KEYWORD
+
+{	LBRACE
+
+index	IDENTIFIER
+
+=	EQ
+
+ERROR: ILLEGAL INTEGERLITERAL	line: 46	: 1number
+
+;	SEMI
+
+}	RBRACE
+
+return	KEYWORD
+
+tmp	IDENTIFIER
+
+;	SEMI
+
+}	RBRACE
+
+public	KEYWORD
+
+boolean	KEYWORD
+
+isVoid	IDENTIFIER
+
+(	LPAREN
+
+)	RPAREN
+
+{	LBRACE
+
+boolean	KEYWORD
+
+ERROR: ILLEGAL IDENTIFIER	line: 52	: #asdf
+
+if	KEYWORD
+
+(	LPAREN
+
+messagelist	IDENTIFIER
+
+.	DOT
+
+length	KEYWORD
+
+ERROR: ILLEGAL CHARACTER	line: 53	: >
+
+0	INTEGERLITERAL
+
+)	RPAREN
+
+{	LBRACE
+
+flag	IDENTIFIER
+
+=	EQ
+
+false	KEYWORD
+
+;	SEMI
+
+}	RBRACE
+
+else	KEYWORD
+
+{	LBRACE
+
+flag	IDENTIFIER
+
+=	EQ
+
+true	KEYWORD
+
+;	SEMI
+
+}	RBRACE
+
+return	KEYWORD
+
+flag	IDENTIFIER
+
+;	SEMI
+
+}	RBRACE
+
+public	KEYWORD
+
+int	KEYWORD
+
+Juggling	IDENTIFIER
+
+(	LPAREN
+
+)	RPAREN
+
+{	LBRACE
+
+boolean	KEYWORD
+
+t	IDENTIFIER
+
+;	SEMI
+
+int	KEYWORD
+
+tmp1	IDENTIFIER
+
+;	SEMI
+
+int	KEYWORD
+
+tmp2	IDENTIFIER
+
+;	SEMI
+
+int	KEYWORD
+
+tmp3	IDENTIFIER
+
+;	SEMI
+
+tmp1	IDENTIFIER
+
+=	EQ
+
+ERROR: ILLEGAL INTEGERLITERAL	line: 67	: .0
+
+;	SEMI
+
+tmp2	IDENTIFIER
+
+=	EQ
+
+ERROR: ILLEGAL INTEGERLITERAL	line: 68	: .258
+
+;	SEMI
+
+tmp3	IDENTIFIER
+
+=	EQ
+
+0	INTEGERLITERAL
+
+;	SEMI
+
+while	KEYWORD
+
+(	LPAREN
+
+(	LPAREN
+
+tmp2	IDENTIFIER
+
+<	LT
+
+tmp3	IDENTIFIER
+
+)	RPAREN
+
+ERROR: ILLEGAL OPERATOR	line: 70	: &
+
+(	LPAREN
+
+tmp1	IDENTIFIER
+
+<	LT
+
+tmp2	IDENTIFIER
+
+)	RPAREN
+
+&&	AMPAMP
+
+(	LPAREN
+
+tmp1	IDENTIFIER
+
+-	SUB
+
+tmp2	IDENTIFIER
+
+)	RPAREN
+
+&&	AMPAMP
+
+ERROR: ILLEGAL OPERATOR	line: 70	: &
+
+(	LPAREN
+
+tmp2	IDENTIFIER
+
+-	SUB
+
+tmp3	IDENTIFIER
+
+)	RPAREN
+
+)	RPAREN
+
+{	LBRACE
+
+tmp1	IDENTIFIER
+
+=	EQ
+
+tmp3	IDENTIFIER
+
+-	SUB
+
+tmp2	IDENTIFIER
+
+;	SEMI
+
+tmp2	IDENTIFIER
+
+=	EQ
+
+tmp2	IDENTIFIER
+
+-	SUB
+
+tmp1	IDENTIFIER
+
+;	SEMI
+
+tmp3	IDENTIFIER
+
+=	EQ
+
+tmp2	IDENTIFIER
+
+*	STAR
+
+tmp1	IDENTIFIER
+
+;	SEMI
+
+t	IDENTIFIER
+
+=	EQ
+
+this	KEYWORD
+
+.	DOT
+
+HolyLight	IDENTIFIER
+
+(	LPAREN
+
+)	RPAREN
+
+;	SEMI
+
+}	RBRACE
+
+return	KEYWORD
+
+(	LPAREN
+
+tmp1	IDENTIFIER
+
+*	STAR
+
+tmp2	IDENTIFIER
+
++	PLUS
+
+tmp3	IDENTIFIER
+
+)	RPAREN
+
+*	STAR
+
+messagelist	IDENTIFIER
+
+.	DOT
+
+length	KEYWORD
+
+;	SEMI
+
+}	RBRACE
+
+public	KEYWORD
+
+boolean	KEYWORD
+
+HolyLight	IDENTIFIER
+
+(	LPAREN
+
+)	RPAREN
+
+{	LBRACE
+
+in	IDENTIFIER
+
+=	EQ
+
+ERROR: ILLEGAL IDENTIFIER	line: 81	: $4852
+
++	PLUS
+
+111	INTEGERLITERAL
+
+;	SEMI
+
+out	IDENTIFIER
+
+=	EQ
+
+ERROR: ILLEGAL IDENTIFIER	line: 82	: @4_book
+
+-	SUB
+
+45241	INTEGERLITERAL
+
+;	SEMI
+
+System.out.println	KEYWORD
+
+(	LPAREN
+
+false	KEYWORD
+
+)	RPAREN
+
+;	SEMI
+
+Systemout	IDENTIFIER
+
+.	DOT
+
+println	IDENTIFIER
+
+(	LPAREN
+
+true	KEYWORD
+
+)	RPAREN
+
+;	SEMI
+
+system	IDENTIFIER
+
+.	DOT
+
+out	IDENTIFIER
+
+.	DOT
+
+println	IDENTIFIER
+
+(	LPAREN
+
+false	KEYWORD
+
+)	RPAREN
+
+;	SEMI
+
+}	RBRACE
+
+}	RBRACE
+
+class	KEYWORD
+
+YourClient	IDENTIFIER
+
+extends	KEYWORD
+
+Client	IDENTIFIER
+
+{	LBRACE
+
+public	KEYWORD
+
+int	KEYWORD
+
+start	IDENTIFIER
+
+(	LPAREN
+
+int	KEYWORD
+
+host	IDENTIFIER
+
+,	COMMA
+
+int	KEYWORD
+
+port	IDENTIFIER
+
+)	RPAREN
+
+{	LBRACE
+
+int	KEYWORD
+
+handle	IDENTIFIER
+
+;	SEMI
+
+handle	IDENTIFIER
+
+=	EQ
+
+this	KEYWORD
+
+.	DOT
+
+run	IDENTIFIER
+
+(	LPAREN
+
+)	RPAREN
+
+return	KEYWORD
+
+handle	IDENTIFIER
+
+;	SEMI
+
+}	RBRACE
+
+}	RBRACE
+
+class	KEYWORD
+
+MyClient	IDENTIFIER
+
+extend	IDENTIFIER
+
+Client	IDENTIFIER
+
+{	LBRACE
+
+public	KEYWORD
+
+int	KEYWORD
+
+start	IDENTIFIER
+
+(	LPAREN
+
+int	KEYWORD
+
+host	IDENTIFIER
+
+,	COMMA
+
+int	KEYWORD
+
+port	IDENTIFIER
+
+)	RPAREN
+
+{	LBRACE
+
+int	KEYWORD
+
+handle	IDENTIFIER
+
+;	SEMI
+
+handle	IDENTIFIER
+
+=	EQ
+
+this	KEYWORD
+
+.	DOT
+
+run	IDENTIFIER
+
+(	LPAREN
+
+)	RPAREN
+
+return	KEYWORD
+
+handle	IDENTIFIER
+
+;	SEMI
+
+}	RBRACE
+
+}	RBRACE
+
+EOF
+

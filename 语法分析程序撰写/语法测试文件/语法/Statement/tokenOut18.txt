@@ -1,0 +1,720 @@
+EOF
+
+1		class	CLASS
+
+1		WhatHappen	IDENTIFIER
+
+1		{	LBRACE
+
+2		public	PUBLIC
+
+2		static	STATIC
+
+2		void	VOID
+
+2		main	MAIN
+
+2		(	LPAREN
+
+2		String	STRING
+
+2		[	LBRACKET
+
+2		]	RBRACKET
+
+2		args	IDENTIFIER
+
+2		)	RPAREN
+
+2		{	LBRACE
+
+3		MyClient	IDENTIFIER
+
+3		mc	IDENTIFIER
+
+3		;	SEMI
+
+4		int	INT
+
+4		handle	IDENTIFIER
+
+4		;	SEMI
+
+6		mc	IDENTIFIER
+
+6		=	EQ
+
+6		new	NEW
+
+6		MyClient	IDENTIFIER
+
+6		(	LPAREN
+
+6		)	RPAREN
+
+6		;	SEMI
+
+7		while	WHILE
+
+7		(	LPAREN
+
+7		!	BANG
+
+7		false	FALSE
+
+7		)	RPAREN
+
+7		{	LBRACE
+
+8		handle	IDENTIFIER
+
+8		=	EQ
+
+8		mc	IDENTIFIER
+
+8		.	DOT
+
+8		start	IDENTIFIER
+
+8		(	LPAREN
+
+8		10	INTEGERLITERAL
+
+8		,	COMMA
+
+8		10	INTEGERLITERAL
+
+8		)	RPAREN
+
+8		;	SEMI
+
+9		}	RBRACE
+
+10		}	RBRACE
+
+11		}	RBRACE
+
+13		class	CLASS
+
+13		Client	IDENTIFIER
+
+13		{	LBRACE
+
+14		int	INT
+
+14		in	IDENTIFIER
+
+14		;	SEMI
+
+15		int	INT
+
+15		out	IDENTIFIER
+
+15		;	SEMI
+
+16		int	INT
+
+16		[	LBRACKET
+
+16		]	RBRACKET
+
+16		messagelist	IDENTIFIER
+
+16		;	SEMI
+
+17		int	INT
+
+17		index	IDENTIFIER
+
+17		;	SEMI
+
+18		public	PUBLIC
+
+18		boolean	BOOLEAN
+
+18		init	IDENTIFIER
+
+18		(	LPAREN
+
+18		)	RPAREN
+
+18		{	LBRACE
+
+19		index	IDENTIFIER
+
+19		=	EQ
+
+19		0	INTEGERLITERAL
+
+19		;	SEMI
+
+20		messagelist	IDENTIFIER
+
+20		=	EQ
+
+20		new	NEW
+
+20		int	INT
+
+20		[	LBRACKET
+
+20		10	INTEGERLITERAL
+
+20		]	RBRACKET
+
+20		;	SEMI
+
+21		in	IDENTIFIER
+
+21		=	EQ
+
+21		0	INTEGERLITERAL
+
+21		;	SEMI
+
+22		out	IDENTIFIER
+
+22		=	EQ
+
+22		0	INTEGERLITERAL
+
+22		;	SEMI
+
+23		return	RETURN
+
+23		true	TRUE
+
+23		;	SEMI
+
+24		}	RBRACE
+
+25		public	PUBLIC
+
+25		int	INT
+
+25		run	IDENTIFIER
+
+25		(	LPAREN
+
+25		int	INT
+
+25		host	IDENTIFIER
+
+25		,	COMMA
+
+25		int	INT
+
+25		port	IDENTIFIER
+
+25		)	RPAREN
+
+25		{	LBRACE
+
+26		int	INT
+
+26		handle	IDENTIFIER
+
+26		;	SEMI
+
+27		handle	IDENTIFIER
+
+27		=	EQ
+
+27		this	THIS
+
+27		.	DOT
+
+27		Juggling	IDENTIFIER
+
+27		(	LPAREN
+
+27		)	RPAREN
+
+27		;	SEMI
+
+29		}	RBRACE
+
+31		public	PUBLIC
+
+31		int	INT
+
+31		getMsg	IDENTIFIER
+
+31		(	LPAREN
+
+31		)	RPAREN
+
+31		{	LBRACE
+
+32		int	INT
+
+32		tmp	IDENTIFIER
+
+32		;	SEMI
+
+33		tmp	IDENTIFIER
+
+33		=	EQ
+
+33		messagelist	IDENTIFIER
+
+33		.	DOT
+
+33		length	LENGTH
+
+33		;	SEMI
+
+34		if	IF
+
+34		(	LPAREN
+
+34		this	THIS
+
+34		.	DOT
+
+34		isVoid	IDENTIFIER
+
+34		(	LPAREN
+
+34		)	RPAREN
+
+34		)	RPAREN
+
+34		{	LBRACE
+
+35		tmp	IDENTIFIER
+
+35		=	EQ
+
+35		tmp	IDENTIFIER
+
+35		-	SUB
+
+35		1	INTEGERLITERAL
+
+35		;	SEMI
+
+36		}	RBRACE
+
+37		else	ELSE
+
+37		{	LBRACE
+
+38		tmp	IDENTIFIER
+
+38		=	EQ
+
+38		tmp	IDENTIFIER
+
+38		*	STAR
+
+38		2	INTEGERLITERAL
+
+38		;	SEMI
+
+39		}	RBRACE
+
+40		if	IF
+
+40		(	LPAREN
+
+40		index	IDENTIFIER
+
+40		<	LT
+
+40		10	INTEGERLITERAL
+
+40		)	RPAREN
+
+40		{	LBRACE
+
+41		messagelist	IDENTIFIER
+
+41		[	LBRACKET
+
+41		index	IDENTIFIER
+
+41		]	RBRACKET
+
+41		=	EQ
+
+41		tmp	IDENTIFIER
+
+41		;	SEMI
+
+42		index	IDENTIFIER
+
+42		=	EQ
+
+42		index	IDENTIFIER
+
+42		+	PLUS
+
+42		1	INTEGERLITERAL
+
+42		;	SEMI
+
+43		}	RBRACE
+
+44		else	ELSE
+
+44		{	LBRACE
+
+45		index	IDENTIFIER
+
+45		=	EQ
+
+45		0	INTEGERLITERAL
+
+45		;	SEMI
+
+46		}	RBRACE
+
+47		return	RETURN
+
+47		tmp	IDENTIFIER
+
+47		;	SEMI
+
+48		}	RBRACE
+
+50		public	PUBLIC
+
+50		boolean	BOOLEAN
+
+50		isVoid	IDENTIFIER
+
+50		(	LPAREN
+
+50		)	RPAREN
+
+50		{	LBRACE
+
+51		boolean	BOOLEAN
+
+51		flag	IDENTIFIER
+
+51		;	SEMI
+
+52		if	IF
+
+52		(	LPAREN
+
+52		0	INTEGERLITERAL
+
+52		<	LT
+
+52		messagelist	IDENTIFIER
+
+52		.	DOT
+
+52		length	LENGTH
+
+52		)	RPAREN
+
+52		{	LBRACE
+
+53		flag	IDENTIFIER
+
+53		=	EQ
+
+53		false	FALSE
+
+53		;	SEMI
+
+54		}	RBRACE
+
+55		return	RETURN
+
+55		flag	IDENTIFIER
+
+55		;	SEMI
+
+56		}	RBRACE
+
+58		public	PUBLIC
+
+58		int	INT
+
+58		Juggling	IDENTIFIER
+
+58		(	LPAREN
+
+58		)	RPAREN
+
+58		{	LBRACE
+
+59		boolean	BOOLEAN
+
+59		t	IDENTIFIER
+
+59		;	SEMI
+
+60		int	INT
+
+60		tmp1	IDENTIFIER
+
+60		;	SEMI
+
+61		int	INT
+
+61		tmp2	IDENTIFIER
+
+61		;	SEMI
+
+62		int	INT
+
+62		tmp3	IDENTIFIER
+
+62		;	SEMI
+
+63		tmp1	IDENTIFIER
+
+63		=	EQ
+
+63		2	INTEGERLITERAL
+
+63		;	SEMI
+
+64		tmp2	IDENTIFIER
+
+64		=	EQ
+
+64		3	INTEGERLITERAL
+
+64		;	SEMI
+
+65		tmp3	IDENTIFIER
+
+65		=	EQ
+
+65		4	INTEGERLITERAL
+
+65		;	SEMI
+
+66		while	WHILE
+
+66		(	LPAREN
+
+66		(	LPAREN
+
+66		tmp2	IDENTIFIER
+
+66		<	LT
+
+66		tmp3	IDENTIFIER
+
+66		)	RPAREN
+
+66		&&	AMPAMP
+
+66		(	LPAREN
+
+66		tmp1	IDENTIFIER
+
+66		<	LT
+
+66		tmp2	IDENTIFIER
+
+66		)	RPAREN
+
+66		)	RPAREN
+
+66		{	LBRACE
+
+67		tmp1	IDENTIFIER
+
+67		=	EQ
+
+67		tmp3	IDENTIFIER
+
+67		-	SUB
+
+67		tmp2	IDENTIFIER
+
+67		;	SEMI
+
+68		tmp2	IDENTIFIER
+
+68		=	EQ
+
+68		tmp2	IDENTIFIER
+
+68		-	SUB
+
+68		tmp1	IDENTIFIER
+
+68		;	SEMI
+
+69		tmp3	IDENTIFIER
+
+69		=	EQ
+
+69		tmp2	IDENTIFIER
+
+69		*	STAR
+
+69		tmp1	IDENTIFIER
+
+69		;	SEMI
+
+70		t	IDENTIFIER
+
+70		=	EQ
+
+70		this	THIS
+
+70		.	DOT
+
+70		HolyLight	IDENTIFIER
+
+70		(	LPAREN
+
+70		)	RPAREN
+
+70		;	SEMI
+
+71		}	RBRACE
+
+72		return	RETURN
+
+72		(	LPAREN
+
+72		tmp1	IDENTIFIER
+
+72		*	STAR
+
+72		tmp2	IDENTIFIER
+
+72		+	PLUS
+
+72		tmp3	IDENTIFIER
+
+72		)	RPAREN
+
+72		*	STAR
+
+72		messagelist	IDENTIFIER
+
+72		.	DOT
+
+72		length	LENGTH
+
+72		;	SEMI
+
+73		}	RBRACE
+
+76		public	PUBLIC
+
+76		boolean	BOOLEAN
+
+76		HolyLight	IDENTIFIER
+
+76		(	LPAREN
+
+76		)	RPAREN
+
+76		{	LBRACE
+
+77		in	IDENTIFIER
+
+77		=	EQ
+
+77		in	IDENTIFIER
+
+77		+	PLUS
+
+77		1	INTEGERLITERAL
+
+77		;	SEMI
+
+78		out	IDENTIFIER
+
+78		=	EQ
+
+78		out	IDENTIFIER
+
+78		-	SUB
+
+78		1	INTEGERLITERAL
+
+78		;	SEMI
+
+79		System.out.println	SYSTEM_OUT_PRINTLN
+
+79		(	LPAREN
+
+79		false	FALSE
+
+79		)	RPAREN
+
+79		;	SEMI
+
+80		}	RBRACE
+
+81		}	RBRACE
+
+83		class	CLASS
+
+83		MyClient	IDENTIFIER
+
+83		extend	IDENTIFIER
+
+83		Client	IDENTIFIER
+
+83		{	LBRACE
+
+85		public	PUBLIC
+
+85		int	INT
+
+85		start	IDENTIFIER
+
+85		(	LPAREN
+
+85		int	INT
+
+85		host	IDENTIFIER
+
+85		,	COMMA
+
+85		int	INT
+
+85		port	IDENTIFIER
+
+85		)	RPAREN
+
+85		{	LBRACE
+
+86		int	INT
+
+86		handle	IDENTIFIER
+
+86		;	SEMI
+
+87		handle	IDENTIFIER
+
+87		=	EQ
+
+87		this	THIS
+
+87		.	DOT
+
+87		run	IDENTIFIER
+
+87		(	LPAREN
+
+87		)	RPAREN
+
+88		return	RETURN
+
+88		handle	IDENTIFIER
+
+88		;	SEMI
+
+89		}	RBRACE
+
+90		}	RBRACE
+
+EOF
+

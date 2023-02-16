@@ -1,0 +1,15 @@
+Goal:
+  MainClass: WhatHappen, args
+    WhileState:
+      NonExpre:
+        FALSE: false
+      AssignState: handle
+        ArrayExpre:
+          IDENTIFIER: mc
+          INTEGERLITERAL: 7
+      AssignState: handle
+        ArrayExpre:
+          IDENTIFIER: mc
+          OperaExpre: PLUS
+            IDENTIFIER: a
+            IDENTIFIER: b

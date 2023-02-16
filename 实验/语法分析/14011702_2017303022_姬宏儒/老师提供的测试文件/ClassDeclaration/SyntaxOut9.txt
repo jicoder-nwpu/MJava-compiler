@@ -1,0 +1,181 @@
+Goal:
+  MainClass: WhatHappen, args
+    WhileState:
+      NonExpre:
+        FALSE: false
+      AssignState: mc1
+        NewClassExpre: MyClient
+      AssignState: mc2
+        NewClassExpre: MyClient
+      AssignState: mc3
+        NewClassExpre: MyClient
+      AssignState: mc4
+        NewClassExpre: MyClient
+      AssignState: handle
+        CallExpre: start
+          IDENTIFIER: mc
+          INTEGERLITERAL: 10
+          INTEGERLITERAL: 10
+  ClassDeclaration: Client
+    VarDeclaration: in
+      Type: int
+    VarDeclaration: out
+      Type: int
+    VarDeclaration: messagelist
+      Type: int[]
+    VarDeclaration: index
+      Type: int
+    MethodDeclaration: init
+      Type: boolean
+      AssignState: index
+        INTEGERLITERAL: 0
+      AssignState: messagelist
+        NewArrayExpre:
+          INTEGERLITERAL: 10
+      AssignState: in
+        INTEGERLITERAL: 0
+      AssignState: out
+        INTEGERLITERAL: 0
+      Return:
+        TRUE: true
+    MethodDeclaration: run
+      Type: int
+      Argument: host
+        Type: int
+      Argument: port
+        Type: int
+      VarDeclaration: handle
+        Type: int
+      AssignState: handle
+        CallExpre: Juggling
+          THIS: this
+      Return:
+        IDENTIFIER: handle
+    MethodDeclaration: getMsg
+      Type: int
+      VarDeclaration: tmp
+        Type: int
+      AssignState: tmp
+        LengthExpre:
+          IDENTIFIER: messagelist
+      IfState:
+        CallExpre: isVoid
+          THIS: this
+        AssignState: tmp
+          OperaExpre: SUB
+            IDENTIFIER: tmp
+            INTEGERLITERAL: 1
+        AssignState: tmp
+          OperaExpre: STAR
+            IDENTIFIER: tmp
+            INTEGERLITERAL: 2
+      IfState:
+        OperaExpre: LT
+          IDENTIFIER: index
+          INTEGERLITERAL: 10
+        AssignState: messagelist
+          IDENTIFIER: index
+          IDENTIFIER: tmp
+        AssignState: index
+          OperaExpre: PLUS
+            IDENTIFIER: index
+            INTEGERLITERAL: 1
+        AssignState: index
+          INTEGERLITERAL: 0
+      Return:
+        IDENTIFIER: tmp
+    MethodDeclaration: isVoid
+      Type: boolean
+      VarDeclaration: flag
+        Type: boolean
+      IfState:
+        OperaExpre: LT
+          INTEGERLITERAL: 0
+          LengthExpre:
+            IDENTIFIER: messagelist
+        AssignState: flag
+          FALSE: false
+        AssignState: flag
+          TRUE: true
+      Return:
+        IDENTIFIER: flag
+    MethodDeclaration: Juggling
+      Type: int
+      VarDeclaration: t
+        Type: boolean
+      VarDeclaration: tmp1
+        Type: int
+      VarDeclaration: tmp2
+        Type: int
+      VarDeclaration: tmp3
+        Type: int
+      AssignState: tmp1
+        INTEGERLITERAL: 2
+      AssignState: tmp2
+        INTEGERLITERAL: 3
+      AssignState: tmp3
+        INTEGERLITERAL: 4
+      WhileState:
+        OperaExpre: AMPAMP
+          PriorityExpre:
+            OperaExpre: LT
+              IDENTIFIER: tmp2
+              IDENTIFIER: tmp3
+          PriorityExpre:
+            OperaExpre: LT
+              IDENTIFIER: tmp1
+              IDENTIFIER: tmp2
+        AssignState: tmp1
+          OperaExpre: SUB
+            IDENTIFIER: tmp3
+            IDENTIFIER: tmp2
+        AssignState: tmp2
+          OperaExpre: SUB
+            IDENTIFIER: tmp2
+            IDENTIFIER: tmp1
+        AssignState: tmp3
+          OperaExpre: STAR
+            IDENTIFIER: tmp2
+            IDENTIFIER: tmp1
+        AssignState: t
+          CallExpre: HolyLight
+            THIS: this
+      Return:
+        OperaExpre: STAR
+          PriorityExpre:
+            OperaExpre: PLUS
+              OperaExpre: STAR
+                IDENTIFIER: tmp1
+                IDENTIFIER: tmp2
+              IDENTIFIER: tmp3
+          LengthExpre:
+            IDENTIFIER: messagelist
+    MethodDeclaration: HolyLight
+      Type: boolean
+      AssignState: in
+        OperaExpre: PLUS
+          IDENTIFIER: in
+          INTEGERLITERAL: 1
+      AssignState: out
+        OperaExpre: SUB
+          IDENTIFIER: out
+          INTEGERLITERAL: 1
+      System_out_state:
+        FALSE: false
+      Return:
+        FALSE: false
+  ClassDeclaration: MyClient
+    extends: Client
+    MethodDeclaration: start
+      Type: int
+      Argument: host
+        Type: int
+      Argument: port
+        Type: int
+      VarDeclaration: handle
+        Type: int
+      AssignState: handle
+        CallExpre: run
+          THIS: this
+      Return:
+        IDENTIFIER: handle

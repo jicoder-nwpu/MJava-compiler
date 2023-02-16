@@ -1,0 +1,28 @@
+Goal:
+  MainClass: WhatHappen, args
+    WhileState:
+      NonExpre:
+        FALSE: false
+      AssignState: handle
+        CallExpre: start
+          IDENTIFIER: mc
+          INTEGERLITERAL: 10
+          INTEGERLITERAL: 10
+  ClassDeclaration: Client
+    VarDeclaration: in
+      Type: int
+  ClassDeclaration: MyClient
+    extends: Client
+    MethodDeclaration: start
+      Type: int
+      Argument: host
+        Type: int
+      Argument: port
+        Type: int
+      VarDeclaration: handle
+        Type: int
+      AssignState: handle
+        CallExpre: run
+          THIS: this
+      Return:
+        IDENTIFIER: handle

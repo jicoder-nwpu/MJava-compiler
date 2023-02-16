@@ -1,0 +1,116 @@
+EOF
+
+1		class	CLASS
+
+1		WhatHappen	IDENTIFIER
+
+1		{	LBRACE
+
+2		public	PUBLIC
+
+2		static	STATIC
+
+2		void	VOID
+
+2		main	MAIN
+
+2		(	LPAREN
+
+2		String	STRING
+
+2		[	LBRACKET
+
+2		]	RBRACKET
+
+2		args	IDENTIFIER
+
+2		)	RPAREN
+
+2		{	LBRACE
+
+3		while	WHILE
+
+3		(	LPAREN
+
+3		!	BANG
+
+3		false	FALSE
+
+3		)	RPAREN
+
+3		{	LBRACE
+
+4		handle	IDENTIFIER
+
+4		=	EQ
+
+4		mc	IDENTIFIER
+
+4		.	DOT
+
+4		start	IDENTIFIER
+
+4		(	LPAREN
+
+4		10	INTEGERLITERAL
+
+4		,	COMMA
+
+4		10	INTEGERLITERAL
+
+4		)	RPAREN
+
+4		;	SEMI
+
+5		messagelist	IDENTIFIER
+
+5		=	EQ
+
+5		new	NEW
+
+5		int	INT
+
+5		[	LBRACKET
+
+5		10	INTEGERLITERAL
+
+5		]	RBRACKET
+
+5		;	SEMI
+
+6		in	IDENTIFIER
+
+6		=	EQ
+
+6		0	INTEGERLITERAL
+
+7		out	IDENTIFIER
+
+7		=	EQ
+
+7		in	IDENTIFIER
+
+7		;	SEMI
+
+8		messagelist	IDENTIFIER
+
+8		[	LBRACKET
+
+8		index	IDENTIFIER
+
+8		]	RBRACKET
+
+8		=	EQ
+
+8		tmp	IDENTIFIER
+
+8		;	SEMI
+
+10		}	RBRACE
+
+11		}	RBRACE
+
+12		}	RBRACE
+
+EOF
+

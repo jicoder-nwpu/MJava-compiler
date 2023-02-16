@@ -1,0 +1,26 @@
+class WhatHappen {
+    public static void main(String[] args) {
+        while(!false){
+            handle = mc.start(10, 10);
+        }
+    }
+}
+
+class Client {
+    public int Juggling(){
+        boolean t;
+        int tmp1;
+        int tmp2;
+        int tmp3;
+        tmp1 = 2;
+        tmp2 = 3;
+        tmp3 = 4;
+        while((tmp2 < tmp3)&&(tmp1<tmp2)){
+            tmp1 = tmp3 - tmp2;
+            tmp2 = tmp2 - tmp1;
+            tmp3 = tmp2 * 
+            t = this.HolyLight();
+        }
+        return (tmp1*tmp2+tmp3)*messagelist.length;
+    }
+}

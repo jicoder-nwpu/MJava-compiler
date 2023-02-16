@@ -1,0 +1,8 @@
+Goal:
+  MainClass: WhatHappen, args
+    WhileState:
+      NonExpre:
+        FALSE: false
+      AssignState: handle
+        LengthExpre:
+          IDENTIFIER: mc

@@ -1,0 +1,36 @@
+Goal:
+  MainClass: WhatHappen, args
+    WhileState:
+      NonExpre:
+        FALSE: false
+      AssignState: handle
+        CallExpre: start
+          IDENTIFIER: mc
+          INTEGERLITERAL: 10
+          INTEGERLITERAL: 10
+  ClassDeclaration: Client
+    VarDeclaration: in
+      Type: int
+    VarDeclaration: out
+      Type: int
+    VarDeclaration: messagelist
+      Type: int[]
+    VarDeclaration: index
+      Type: int
+    MethodDeclaration: init
+      Type: boolean
+      Argument: a
+        Type: int
+      Argument: b
+        Type: boolean
+      AssignState: index
+        INTEGERLITERAL: 0
+      AssignState: messagelist
+        NewArrayExpre:
+          INTEGERLITERAL: 10
+      AssignState: in
+        INTEGERLITERAL: 0
+      AssignState: out
+        INTEGERLITERAL: 0
+      Return:
+        TRUE: true

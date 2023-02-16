@@ -1,0 +1,148 @@
+EOF
+
+1		class	CLASS
+
+1		WhatHappen	IDENTIFIER
+
+1		{	LBRACE
+
+2		public	PUBLIC
+
+2		static	STATIC
+
+2		void	VOID
+
+2		main	MAIN
+
+2		(	LPAREN
+
+2		String	STRING
+
+2		[	LBRACKET
+
+2		]	RBRACKET
+
+2		args	IDENTIFIER
+
+2		)	RPAREN
+
+2		{	LBRACE
+
+3		while	WHILE
+
+3		(	LPAREN
+
+3		!	BANG
+
+3		false	FALSE
+
+3		)	RPAREN
+
+3		{	LBRACE
+
+4		handle	IDENTIFIER
+
+4		=	EQ
+
+4		mc	IDENTIFIER
+
+4		.	DOT
+
+4		start	IDENTIFIER
+
+4		(	LPAREN
+
+4		10	INTEGERLITERAL
+
+4		,	COMMA
+
+4		10	INTEGERLITERAL
+
+4		)	RPAREN
+
+4		;	SEMI
+
+5		}	RBRACE
+
+6		}	RBRACE
+
+7		}	RBRACE
+
+9		class	CLASS
+
+9		6546464	INTEGERLITERAL
+
+9		{	LBRACE
+
+10		int	INT
+
+10		in	IDENTIFIER
+
+10		;	SEMI
+
+11		}	RBRACE
+
+13		class	CLASS
+
+13		MyClient	IDENTIFIER
+
+13		extends	EXTENDS
+
+13		Client	IDENTIFIER
+
+13		{	LBRACE
+
+15		public	PUBLIC
+
+15		int	INT
+
+15		start	IDENTIFIER
+
+15		(	LPAREN
+
+15		int	INT
+
+15		host	IDENTIFIER
+
+15		,	COMMA
+
+15		int	INT
+
+15		port	IDENTIFIER
+
+15		)	RPAREN
+
+15		{	LBRACE
+
+16		int	INT
+
+16		handle	IDENTIFIER
+
+16		;	SEMI
+
+17		handle	IDENTIFIER
+
+17		=	EQ
+
+17		this	THIS
+
+17		.	DOT
+
+17		run	IDENTIFIER
+
+17		(	LPAREN
+
+17		)	RPAREN
+
+18		return	RETURN
+
+18		handle	IDENTIFIER
+
+18		;	SEMI
+
+19		}	RBRACE
+
+20		}	RBRACE
+
+EOF
+

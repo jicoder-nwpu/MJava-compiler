@@ -1,0 +1,12 @@
+class WhatHappen {
+    public static void main(String[] args) {
+        while(!false){
+            handle = 123456;
+	    messagelist = true;
+	    in = false;
+            out = in;
+	    messagelist[index] = this; 
+        }
+    }
+}
+

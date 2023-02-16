@@ -1,0 +1,8 @@
+class WhatHappen {
+    public static void main(String[] args) {
+        if(true)
+        else{
+            index = 0;
+        }
+    }
+}

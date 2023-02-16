@@ -1,0 +1,7 @@
+class WhatHappen {
+    public static void main(int[] argc) {
+        while(!false){
+            handle = mc.start(10, 10);
+        }
+    }
+}

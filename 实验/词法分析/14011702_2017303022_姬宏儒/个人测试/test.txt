@@ -1,0 +1,105 @@
+class WhatHappen {
+    public static void main(String[] args) {
+        MyClient mc;
+        int handle;
+		int voit;
+		boolean maint;
+		String string;
+        mc = new MyClient();
+        while(!false){
+            handle = mc.start(10, 10);
+        }
+    }
+}
+
+Class Client {
+    int book1;
+    int book1_5;
+    int[] book1_k;
+    int book1_k_p;
+    pUblic boolean init(){
+        book1_ $ 0;
+        messagelist # new int[10];
+        _book1 @ 0;
+        _book1_ % 0;
+        return true;
+    }
+    public int run(int _book1_5, int book$ssd){
+        int book#;
+        handle = this.Juggling();
+    } 
+
+    public int getMsg(){
+        int ###; 
+        tmp = messagelist.length;
+        if(this.isVoid()){
+            tmp = tmp - 5.845;
+        }
+        else{
+            tmp = tmp * 5fast7s;
+        }
+        if(index < 10){
+            messagelist[index] = tmp;
+            index = index + 1;
+        }
+        else{
+            index = 1number;
+        }
+        return tmp;
+    }
+
+    public boolean isVoid(){
+        boolean #asdf;
+        if(messagelist.length > 0){
+            flag = false;
+        }
+        else{
+            flag = true;
+        }
+        return flag;
+    }
+
+    public int Juggling(){
+        boolean t;
+        int tmp1;
+        int tmp2;
+        int tmp3;
+        tmp1 = .0;
+        tmp2 = .258;
+        tmp3 = 0;
+        while((tmp2 < tmp3)&(tmp1<tmp2)&&(tmp1 - tmp2)&&&(tmp2 - tmp3)){
+            tmp1 = tmp3 - tmp2;
+            tmp2 = tmp2 - tmp1;
+            tmp3 = tmp2 * tmp1;
+            t = this.HolyLight();
+        }
+        return (tmp1*tmp2+tmp3)*messagelist.length;
+    }
+
+
+    public boolean HolyLight(){
+        in = $4852 + 111;
+        out = @4_book - 45241;
+        System.out.println(false);
+		Systemout.println(true);
+		system.out.println(false);
+    }
+}
+
+class YourClient extends Client{
+
+    public int start(int host, int port){
+        int handle;
+        handle = this.run()
+        return handle;
+    }
+}
+
+class MyClient extend Client{
+
+    public int start(int host, int port){
+        int handle;
+        handle = this.run()
+        return handle;
+    }
+}

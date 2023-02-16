@@ -1,0 +1,13 @@
+Goal:
+  MainClass: WhatHappen, args
+    WhileState:
+      NonExpre:
+        PriorityExpre:
+          OperaExpre: PLUS
+            INTEGERLITERAL: 1
+            INTEGERLITERAL: 5
+      AssignState: handle
+        NewArrayExpre:
+          INTEGERLITERAL: 10
+      AssignState: mc
+        NewClassExpre: MyClient/n

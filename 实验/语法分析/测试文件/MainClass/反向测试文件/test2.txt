@@ -1,0 +1,7 @@
+class WhatHappen {
+    public statics void main(String[] argc) {
+        while(!false){
+            handle = mc.start(10, 10);
+        }
+    }
+}

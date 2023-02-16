@@ -1,0 +1,20 @@
+Goal:
+  MainClass: WhatHappen, args
+    WhileState:
+      NonExpre:
+        FALSE: false
+      AssignState: handle
+        CallExpre: start
+          IDENTIFIER: mc
+          INTEGERLITERAL: 10
+          INTEGERLITERAL: 10
+      AssignState: messagelist
+        NewArrayExpre:
+          INTEGERLITERAL: 10
+      AssignState: in
+        INTEGERLITERAL: 0
+      AssignState: out
+        IDENTIFIER: in
+      AssignState: messagelist
+        IDENTIFIER: index
+        IDENTIFIER: tmp

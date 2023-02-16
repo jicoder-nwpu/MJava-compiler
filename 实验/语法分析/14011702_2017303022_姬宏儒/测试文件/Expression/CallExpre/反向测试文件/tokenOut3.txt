@@ -1,0 +1,86 @@
+EOF
+
+1		class	CLASS
+
+1		WhatHappen	IDENTIFIER
+
+1		{	LBRACE
+
+2		public	PUBLIC
+
+2		static	STATIC
+
+2		void	VOID
+
+2		main	MAIN
+
+2		(	LPAREN
+
+2		String	STRING
+
+2		[	LBRACKET
+
+2		]	RBRACKET
+
+2		args	IDENTIFIER
+
+2		)	RPAREN
+
+2		{	LBRACE
+
+3		while	WHILE
+
+3		(	LPAREN
+
+3		!	BANG
+
+3		false	FALSE
+
+3		)	RPAREN
+
+3		{	LBRACE
+
+4		handle	IDENTIFIER
+
+4		=	EQ
+
+4		mc	IDENTIFIER
+
+4		.	DOT
+
+4		start	IDENTIFIER
+
+4		(	LPAREN
+
+4		10	INTEGERLITERAL
+
+4		,	COMMA
+
+4		)	RPAREN
+
+4		;	SEMI
+
+5		handle	IDENTIFIER
+
+5		=	EQ
+
+5		this	THIS
+
+5		.	DOT
+
+5		Juggling	IDENTIFIER
+
+5		(	LPAREN
+
+5		)	RPAREN
+
+5		;	SEMI
+
+6		}	RBRACE
+
+7		}	RBRACE
+
+8		}	RBRACE
+
+EOF
+

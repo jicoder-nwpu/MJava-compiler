@@ -1,0 +1,8 @@
+class WhatHappen {
+    public static void main(String[] args) {
+        while(!(1 + 5)){
+            handle = new int[10];
+	    mc = new MyClient();
+        }
+    }
+}

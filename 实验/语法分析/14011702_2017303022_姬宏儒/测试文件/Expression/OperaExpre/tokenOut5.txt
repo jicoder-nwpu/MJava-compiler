@@ -1,0 +1,252 @@
+EOF
+
+1		class	CLASS
+
+1		WhatHappen	IDENTIFIER
+
+1		{	LBRACE
+
+2		public	PUBLIC
+
+2		static	STATIC
+
+2		void	VOID
+
+2		main	MAIN
+
+2		(	LPAREN
+
+2		String	STRING
+
+2		[	LBRACKET
+
+2		]	RBRACKET
+
+2		args	IDENTIFIER
+
+2		)	RPAREN
+
+2		{	LBRACE
+
+3		while	WHILE
+
+3		(	LPAREN
+
+3		!	BANG
+
+3		false	FALSE
+
+3		)	RPAREN
+
+3		{	LBRACE
+
+4		handle	IDENTIFIER
+
+4		=	EQ
+
+4		mc	IDENTIFIER
+
+4		.	DOT
+
+4		start	IDENTIFIER
+
+4		(	LPAREN
+
+4		10	INTEGERLITERAL
+
+4		,	COMMA
+
+4		10	INTEGERLITERAL
+
+4		)	RPAREN
+
+4		;	SEMI
+
+5		}	RBRACE
+
+6		}	RBRACE
+
+7		}	RBRACE
+
+9		class	CLASS
+
+9		Client	IDENTIFIER
+
+9		{	LBRACE
+
+10		public	PUBLIC
+
+10		int	INT
+
+10		Juggling	IDENTIFIER
+
+10		(	LPAREN
+
+10		)	RPAREN
+
+10		{	LBRACE
+
+11		boolean	BOOLEAN
+
+11		t	IDENTIFIER
+
+11		;	SEMI
+
+12		int	INT
+
+12		tmp1	IDENTIFIER
+
+12		;	SEMI
+
+13		int	INT
+
+13		tmp2	IDENTIFIER
+
+13		;	SEMI
+
+14		int	INT
+
+14		tmp3	IDENTIFIER
+
+14		;	SEMI
+
+15		tmp1	IDENTIFIER
+
+15		=	EQ
+
+15		2	INTEGERLITERAL
+
+15		;	SEMI
+
+16		tmp2	IDENTIFIER
+
+16		=	EQ
+
+16		3	INTEGERLITERAL
+
+16		;	SEMI
+
+17		tmp3	IDENTIFIER
+
+17		=	EQ
+
+17		4	INTEGERLITERAL
+
+17		;	SEMI
+
+18		while	WHILE
+
+18		(	LPAREN
+
+18		(	LPAREN
+
+18		tmp2	IDENTIFIER
+
+18		<	LT
+
+18		tmp3	IDENTIFIER
+
+18		)	RPAREN
+
+18		&&	AMPAMP
+
+18		(	LPAREN
+
+18		tmp1	IDENTIFIER
+
+18		<	LT
+
+18		tmp2	IDENTIFIER
+
+18		)	RPAREN
+
+18		)	RPAREN
+
+18		{	LBRACE
+
+19		tmp1	IDENTIFIER
+
+19		=	EQ
+
+19		tmp3	IDENTIFIER
+
+19		-	SUB
+
+19		tmp2	IDENTIFIER
+
+19		;	SEMI
+
+20		tmp2	IDENTIFIER
+
+20		=	EQ
+
+20		tmp2	IDENTIFIER
+
+20		-	SUB
+
+20		tmp1	IDENTIFIER
+
+20		;	SEMI
+
+21		tmp3	IDENTIFIER
+
+21		=	EQ
+
+21		tmp2	IDENTIFIER
+
+21		*	STAR
+
+21		tmp1	IDENTIFIER
+
+21		;	SEMI
+
+22		t	IDENTIFIER
+
+22		=	EQ
+
+22		this	THIS
+
+22		.	DOT
+
+22		HolyLight	IDENTIFIER
+
+22		(	LPAREN
+
+22		)	RPAREN
+
+22		;	SEMI
+
+23		}	RBRACE
+
+24		return	RETURN
+
+24		(	LPAREN
+
+24		tmp1	IDENTIFIER
+
+24		*	STAR
+
+24		tmp2	IDENTIFIER
+
+24		+	PLUS
+
+24		tmp3	IDENTIFIER
+
+24		)	RPAREN
+
+24		*	STAR
+
+24		messagelist	IDENTIFIER
+
+24		.	DOT
+
+24		length	LENGTH
+
+24		;	SEMI
+
+25		}	RBRACE
+
+26		}	RBRACE
+
+EOF
+

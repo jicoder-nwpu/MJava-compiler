@@ -1,0 +1,88 @@
+EOF
+
+1		class	CLASS
+
+1		WhatHappen	IDENTIFIER
+
+1		{	LBRACE
+
+2		public	PUBLIC
+
+2		static	STATIC
+
+2		void	VOID
+
+2		main	MAIN
+
+2		(	LPAREN
+
+2		String	STRING
+
+2		[	LBRACKET
+
+2		]	RBRACKET
+
+2		args	IDENTIFIER
+
+2		)	RPAREN
+
+2		{	LBRACE
+
+3		if	IF
+
+3		(	LPAREN
+
+3		true	TRUE
+
+3		)	RPAREN
+
+3		{	LBRACE
+
+4		messagelist	IDENTIFIER
+
+4		[	LBRACKET
+
+4		index	IDENTIFIER
+
+4		]	RBRACKET
+
+4		=	EQ
+
+4		tmp	IDENTIFIER
+
+4		;	SEMI
+
+5		index	IDENTIFIER
+
+5		=	EQ
+
+5		index	IDENTIFIER
+
+5		+	PLUS
+
+5		1	INTEGERLITERAL
+
+5		;	SEMI
+
+6		}	RBRACE
+
+7		eLse	IDENTIFIER
+
+7		{	LBRACE
+
+8		index	IDENTIFIER
+
+8		=	EQ
+
+8		0	INTEGERLITERAL
+
+8		;	SEMI
+
+9		}	RBRACE
+
+10		}	RBRACE
+
+11		}	RBRACE
+
+EOF
+

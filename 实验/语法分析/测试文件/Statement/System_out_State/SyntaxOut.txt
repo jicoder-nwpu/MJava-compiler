@@ -1,0 +1,6 @@
+Goal:
+  MainClass: WhatHappen, args
+    System_out_state:
+      OperaExpre: PLUS
+        INTEGERLITERAL: 1
+        INTEGERLITERAL: 2

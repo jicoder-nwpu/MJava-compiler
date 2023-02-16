@@ -1,0 +1,16 @@
+Goal:
+  MainClass: WhatHappen, args
+    WhileState:
+      NonExpre:
+        FALSE: false
+      AssignState: handle
+        INTEGERLITERAL: 123456
+      AssignState: messagelist
+        TRUE: true
+      AssignState: in
+        FALSE: false
+      AssignState: out
+        IDENTIFIER: in
+      AssignState: messagelist
+        IDENTIFIER: index
+        THIS: this

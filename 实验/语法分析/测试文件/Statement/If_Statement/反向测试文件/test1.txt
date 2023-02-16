@@ -1,0 +1,11 @@
+class WhatHappen {
+    public static void main(String[] args) {
+        if(){
+            messagelist[index] = tmp;
+            index = index + 1;
+        }
+        else{
+            index = 0;
+        }
+    }
+}

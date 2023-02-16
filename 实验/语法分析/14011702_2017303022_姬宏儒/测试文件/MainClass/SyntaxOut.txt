@@ -1,0 +1,10 @@
+Goal:
+  MainClass: WhatHappen, argc
+    WhileState:
+      NonExpre:
+        FALSE: false
+      AssignState: handle
+        CallExpre: start
+          IDENTIFIER: mc
+          INTEGERLITERAL: 10
+          INTEGERLITERAL: 10
